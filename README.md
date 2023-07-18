@@ -1,4 +1,4 @@
-# Sid's Decade or Dave's Thirties or The Hochwind Years
+# "Sid's Decade" aka "Dave's Thirties" aka "The Hochwind Years"
 
 ![sidhochwind](assets/sidhochwind-title.png)
 
