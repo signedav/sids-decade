@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>sid's decade</title>
+	<style>
+		img {
+			width: 100%;
+			object-fit: cover;
+			margin: None;
+		}
+		.image-grid {
+			display: grid;
+			grid-template-columns: repeat(15, 6%);
+			grid-gap: None;
+            padding-left: 6%;
+		}
+		.title-bar {
+            font-size: 3vw;
+            font-weight: bold;
+            font-family: 'Ubuntu','Open Sans', sans-serif;
+            margin-left: 6vw ;
+            margin-top: 3vw ;
+            margin-bottom: 3vw ;
+        }
+	</style>
+</head>
+<body>
+    <div class="title-bar" onclick="nextPage()">Next</div>
+	<div class="image-grid"></div>
+
+	<script>
+		const imagesPerPage = 360;
+		const numImages = 3600;
+		const numPages = Math.ceil(numImages / imagesPerPage);
+
+		const imageGrid = document.querySelector('.image-grid');
+		const titleBar = document.querySelector('.title-bar');
+
+		let currentPage = 0;
+
+		function updateTitleBar() {
+			titleBar.innerHTML = "sid's decade #" + currentPage;
+		}
+
+		function updateImageGrid() {
+			imageGrid.innerHTML = '';
+
+			const start = currentPage * imagesPerPage;
+			const end = start + imagesPerPage;
+
+			for (let i = start; i < end && i < numImages; i++) {
+				const img = document.createElement('img');
+				img.src = 'images/'+currentPage+'_'+i+'.jpg';
+				imageGrid.appendChild(img);
+			}
+            updateTitleBar()
+		}
+
+		function nextPage() {
+            if (currentPage === 9) {
+				currentPage = 0;
+			} else {
+                currentPage++;
+            }
+            updateImageGrid();
+        };
+
+		updateImageGrid();
+	</script>
+</body>
+</html>
