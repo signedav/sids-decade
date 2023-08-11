@@ -4,14 +4,14 @@
 
 # instaloader --filename-pattern={date_utc} profile sidhochwind
 
-cd images 
+cd sidhochwind 
 
 page=0
 counter=0
 declare -A file_map
 
-# sort the files by date and time
-for file in $(ls -1tr *.*)
+# sort the files by name
+for file in $(ls -1 *.*);
 do
     # get the file name without extension
     filename=$(basename "$file")
@@ -19,21 +19,24 @@ do
     filename="${filename%.*}"
 
     # check if the file has already been processed
-    if [[ ${file_map["$filename"]} ]]; then
-        # use the existing counter value for this file
-        new_name="${file_map["$filename"]}.$extension"
-    else
-        # assign a new counter value for this file
-        new_name=$(printf "%d_%d.%s" $page $counter "$extension")
-        file_map["$filename"]=$counter
-        if [ $(($counter / ($page+1))) -gt 359 ]; then
-            counter = 0
-            page = $((page+1))
+    # assign a new counter value for this file
+    if [ "$extension" = "jpg" ]; then
+        new_name=$(printf "../images/%d_%d" $page $counter)
+        ori_jpg_name=$(printf "%s.jpg" "$filename")
+        jpg_name=$(printf "%s.jpg" "$new_name")
+        ori_txt_name=$(printf "%s.txt" "$filename")
+        txt_name=$(printf "%s.txt" "$new_name")
+
+        # rename the files
+        cp "$ori_jpg_name" "$jpg_name"
+        cp "$ori_txt_name" "$txt_name"
+
+        if [ $counter = 359 ]; then
+            counter=0
+            page=$((page+1))
         else 
             counter=$((counter+1))
         fi
     fi
 
-    # rename the file
-    mv "$file" "$new_name"
 done

@@ -29,10 +29,6 @@
 	<div class="image-grid"></div>
 
 	<script>
-		const imagesPerPage = 360;
-		const numImages = 3600;
-		const numPages = Math.ceil(numImages / imagesPerPage);
-
 		const imageGrid = document.querySelector('.image-grid');
 		const titleBar = document.querySelector('.title-bar');
 
@@ -45,12 +41,10 @@
 		function updateImageGrid() {
 			imageGrid.innerHTML = '';
 
-			const start = currentPage * imagesPerPage;
-			const end = start + imagesPerPage;
-
-			for (let i = start; i < end && i < numImages; i++) {
+			for (let i = 0; i < 360; i++) {
 				const img = document.createElement('img');
 				img.src = 'images/'+currentPage+'_'+i+'.jpg';
+				img.setAttribute('data-text', 'images/'+currentPage+'_'+i+'.txt'); 
 				imageGrid.appendChild(img);
 			}
             updateTitleBar()
