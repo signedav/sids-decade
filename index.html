@@ -75,9 +75,44 @@
 		const titleBar = document.querySelector('.title-bar');
 
 		let currentPage = 0;
+		var titleTag = '...'
 
 		function updateTitleBar() {
-			titleBar.innerHTML = "sid's decade #" + currentPage;
+			switch (currentPage) {
+			case 0:
+				titletag = 'ohbrotherwhereartthou';
+				break;
+			case 1:
+				titletag = 'blackkimchi';
+				break;
+			case 2:
+				titletag = 'chinookandbook';
+				break;
+			case 3:
+				titletag = 'flowerpower';
+				break;
+			case 4:
+				titletag = 'junomyname';
+				break;
+			case 5:
+				titletag = 'myyearonthemoon';
+				break;
+			case 6:
+				titletag = 'lomomemories';
+				break;
+			case 7:
+				titletag = 'suburbanslumber';
+				break;
+			case 8:
+				titletag = 'sognoamarone';
+				break;
+			case 9:
+				titletag = 'thestrollingtwenties';
+				break;
+			default:
+				titletag = '...';
+			}
+			titleBar.innerHTML = "sid's decade #" + (currentPage+1) +" #"+titletag;
 		}
 
 		function updateImageGrid() {
@@ -102,14 +137,16 @@
 					const img = document.createElement('img');
 					img.src = imgUrl;
 					const text = document.createElement('p');
-					fetch(imgText)
-						.then(response => response.text())
-						.then(data => {
-							text.innerHTML = data;
-						})
-						.catch(error => {
-							console.log(error);
-						});
+					if (imgText) {
+						fetch(imgText)
+							.then(response => response.text())
+							.then(data => {
+								text.innerHTML = data;
+							})
+							.catch(error => {
+								console.log(error);
+							});
+					}
 					modalContent.appendChild(img);
 					modalContent.appendChild(text);
 					modal.appendChild(modalContent);

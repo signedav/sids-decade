@@ -4,8 +4,17 @@
 
 ## To do's 
 
-- [ ] Clean up pictures (3600)
+- [x] Clean up pictures #1
+- [ ] Clean up pictures #2
+- [ ] Clean up pictures #3
+- [ ] Clean up pictures #4
+- [ ] Clean up pictures #5
+- [ ] Clean up pictures #6
+- [ ] Clean up pictures #7
+- [ ] Clean up pictures #8
+- [ ] Clean up pictures #9
+- [ ] Clean up pictures #10
 - [ ] modal content position
-- [ ] Nicer CSS (hashtags)
-- [ ] Titles
+- [x] Nicer CSS (hashtags)
+- [x] Titles
 - [ ] Export as PDF
