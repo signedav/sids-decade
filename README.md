@@ -6,7 +6,7 @@
 
 - [x] Clean up pictures #1
 - [x] Clean up pictures #2
-- [ ] Clean up pictures #3
+- [x] Clean up pictures #3
 - [ ] Clean up pictures #4
 - [ ] Clean up pictures #5
 - [ ] Clean up pictures #6
