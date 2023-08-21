@@ -13,8 +13,8 @@
 - [x] Clean up pictures #7 19-20
 - [x] Clean up pictures #8 20-21
 - [x] Clean up pictures #9 21-22
-- [ ] Clean up pictures #10 22-23
-- [ ] "Nur noch von Hand" aus #1 mit Capus ersetzen
+- [x] lösche 2021-02-06_16-59-45_2.jpg (zweites Bild)
+- [x] ersetze 2013-12-25_12-54-41.jpg mit 2014-05-06_15-13-35.jpg
 - [ ] modal content position
 - [x] Nicer CSS (hashtags)
 - [x] Titles

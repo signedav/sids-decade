@@ -1,10 +1,17 @@
 #!/bin/bash
 
-# rm -r sidhochwind
+rm -r sidhochwind
+rm -r images
+mkdir images
 
-# instaloader --filename-pattern={date_utc} profile sidhochwind
+instaloader --filename-pattern={date_utc} profile sidhochwind
 
 cd sidhochwind 
+
+# delete double image
+rm "2021-02-06_16-59-45_2.jpg"
+# replace the darling
+mv "../killed-darlings/2014-05-06_15-13-35.jpg" "2013-12-25_12-54-41.jpg"
 
 page=0
 counter=0
