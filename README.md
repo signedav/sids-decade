@@ -14,6 +14,6 @@ When his brother left a few days after Sid's 30th birthday to do his PhD at Camb
 
 Well [Instagram](https://www.instagram.com/sidhochwind/). But since Sid is getting too old to support dazzling companies, he may suddenly delete the account on a whim. It will still be here https://signedav.github.io/sids-decade/ I know this is Microsoft but yes... I don't know...
 
-## Who the ... is Sid
+## Who the ... is Sid?
 
 Sid Hochwind. Pseudonym. Sid is the short form of Signer Dave and Hochwind because of [Highwind](https://finalfantasy.fandom.com/wiki/Cid_Highwind).
