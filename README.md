@@ -2,20 +2,18 @@
 
 ![sidhochwind](assets/sidhochwind-title.png)
 
-## To do's 
+## What?
 
-- [x] Clean up pictures #1 13-14
-- [x] Clean up pictures #2 14-15
-- [x] Clean up pictures #3 15-16
-- [x] Clean up pictures #4 16-17
-- [x] Clean up pictures #5 17-18
-- [x] Clean up pictures #6 18-19 achtung mp4
-- [x] Clean up pictures #7 19-20
-- [x] Clean up pictures #8 20-21
-- [x] Clean up pictures #9 21-22
-- [x] lösche 2021-02-06_16-59-45_2.jpg (zweites Bild)
-- [x] ersetze 2013-12-25_12-54-41.jpg mit 2014-05-06_15-13-35.jpg
-- [ ] modal content position
-- [x] Nicer CSS (hashtags)
-- [x] Titles
-- [ ] Export as PDF
+This is Sid's decade between his 30th and 40th birthday. 
+
+## Why?
+
+When his brother left a few days after Sid's 30th birthday to do his PhD at Cambridge, he told him that he would post a photo on Instagram from time to time, so Sid decided to do the same. One photo a day... After a while, his brother stopped doing that. But Sid just kept going. Every day (more or less, but at least on average) he took a photo of something he happened to see. On his 40th birthday, he had enough and stopped.
+
+## Where?
+
+Well [Instagram](https://www.instagram.com/sidhochwind/). But since Sid is getting too old to support dazzling companies, he may suddenly delete the account on a whim. It will still be here https://signedav.github.io/sids-decade/ I know this is Microsoft but yes... I don't know...
+
+## Who the ... is Sid
+
+Sid Hochwind. Pseudonym. Sid is the short form of Signer Dave and Hochwind because of [Highwind](https://finalfantasy.fandom.com/wiki/Cid_Highwind).

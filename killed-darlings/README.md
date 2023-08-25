@@ -1,3 +1,3 @@
 ## Killed Darlings
 
-Ich machte 365 Fotos pro Jahr. Allerdings habe ich manchmal auch Videos gemacht. Diese sind nicht benutzbar für die Walls. Und ich habe die Schaltjahre vergessen. Deshalb stimmt es eh nicht. Diese Bilder hier habe ich auf Insta gelöscht. Hier also der "Friedhof".
+I took 365 photos per year. However, sometimes I also made videos. These are not usable for the walls. And I forgot the leap years. Therefore it is not correct anyway. So I do a fix 360 and deleted some on Insta. These pictures here I deleted on Insta. So here is the "graveyard". But some of them were copied back. Because I sometimes deleted too much. It's a mess. I'm a bit stupid and very, very tired.
