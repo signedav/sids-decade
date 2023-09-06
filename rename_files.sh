@@ -1,10 +1,10 @@
 #!/bin/bash
 
-rm -r sidhochwind
 rm -r images
 mkdir images
 
-instaloader --filename-pattern={date_utc} profile sidhochwind
+# rm -r sidhochwind
+# instaloader --filename-pattern={date_utc} profile sidhochwind
 
 cd sidhochwind 
 
@@ -70,4 +70,30 @@ do
         fi
     fi
 
+done
+
+# for some reason some images are not square...
+# sudo apt-get -y install imagemagick
+
+cd ..
+
+# loop through each file in the directory
+for file in images/*; do
+  # check if file is an image
+  if [[ ${file} =~ \.jpg$ ]]; then
+    # get dimensions of the image
+    dimensions=$(identify -format "%wx%h" ${file})
+    # get the shorter side of the image
+    # Split the string on "x" and save the values in an array
+    IFS="x" read -r -a array <<< "${dimensions}"
+
+    # Compare the two values and save the smaller one in a variable
+    if [[ "${array[0]}" -lt "${array[1]}" ]]; then
+    smaller="${array[0]}"
+    else
+    smaller="${array[1]}"
+    fi
+    # crop the image to a square
+    convert ${file} -gravity center -crop ${smaller}x${smaller}+0+0 +repage ${file}
+  fi
 done

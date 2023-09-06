@@ -17,3 +17,9 @@ Well [Instagram](https://www.instagram.com/sidhochwind/). But since Sid is getti
 ## Who the ... is Sid?
 
 Sid Hochwind. Pseudonym. Sid is the short form of Signer Dave and Hochwind because of [Highwind](https://finalfantasy.fandom.com/wiki/Cid_Highwind).
+
+## Notes to Dave
+### Print
+1. Print it in Chromium to A0
+2. Open PDF with gimp and export as PNG (set compression to 0)
+4. Print with ifolor on 90*60
