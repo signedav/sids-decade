@@ -8,7 +8,7 @@ This is Sid's decade between his 30th and 40th birthday.
 
 ## Why?
 
-When his brother left a few days after Sid's 30th birthday to do his PhD at Cambridge, he told him that he would post a photo on Instagram from time to time, so Sid decided to do the same. One photo a day... After a while, his brother stopped doing that. But Sid just kept going. Every day (more or less, but at least on average) he took a photo of something he happened to see. On his 40th birthday, he had enough and stopped.
+When his brother left a few days after Sid's 30th birthday to do his PhD at Cambridge, he told him that he would post a photo on Instagram from time to time, so Sid decided to do the same. One photo a day... Anyway after a while, his brother stopped making photos. But Sid just kept going. As well a little bit as replacement of his [lomography](assets/rio-lomos.jpg) passion, that became a expensive. Every day (more or less, but at least on average) he took a photo of something he happened to see. On his 40th birthday, he had enough and stopped.
 
 ## Where?
 
